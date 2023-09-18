@@ -1,0 +1,112 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url("images/background-image-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .sidenav {
+    height: 550px;
+    width: 200px;
+    /* z-index: 1; */
+    /* top: 0;
+    left: 0; */
+    background-color: #111;
+    /* overflow: hidden; */
+    padding-top: 20px;
+    margin-top: 158px;
+    float: left;
+    border: 5px dashed blue;
+  }
+  
+  .sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .main {
+    margin-left: 250px; /*Same as the width of the sidenav */
+    margin-top: 20px;
+    padding-left: 50px;
+    border: 5px solid #111;
+    height: 569px;
+  }
+  .header{
+      padding: 2px;
+      text-align: center;
+      background: #111;
+      color: white;
+      font-size: 25px;
+      top: 0; 
+      left: 0; 
+      right: 0;
+      border: 5px dashed blue;
+      /* height: 100px; */
+  }
+  .container{
+      padding: 1%;
+  }
+  .footer{
+      padding: 50px;
+      text-align: center;
+      background: #111;
+      color: white;
+      font-size: 25px;
+      bottom: 0; 
+      left: 0; 
+      right: 0;
+      border: 5px dashed blue;
+      margin-top: 20px;
+  }
+  .quote-text h4, .quote-text p{
+      display: inline;
+  }
+  .main-headshot{
+    padding: 20px;
+    /* border: 5px dashed blue; */
+    margin-left: 50px;
+    margin-top: 125px;
+  }
+  .main-headshot img{
+    height: 200px;
+    width: 200px;
+  }
+  figcaption{
+    background-color:  #111;
+    color: white;
+    width: 200px;
+    text-align: center;
+  }
+  .education-list{
+    /* border: 5px dashed blue; */
+    width: fit-content;
+    margin-left: 90px;
+    padding: 20px;
+    margin-top: 125px;
+  }
+  .interests-list{
+    /* border: 5px dashed blue; */
+    width: fit-content;
+    padding: 20px;
+    margin-left: 90px;
+    margin-top: 50px ;
+  }
+  .main-headshot, .education-list, .interests-list{
+    float: left;
+  }
+  li{
+    font-size: 20px;
+  }
+  dt{
+    font-size: 20px;
+  }
+  caption{
+    font-size: 20px;
+  }
