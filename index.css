@@ -71,17 +71,17 @@ body {
   .main-headshot{
     padding: 20px;
     /* border: 5px dashed blue; */
-    margin-left: 50px;
-    margin-top: 125px;
+    margin-left: 0px;
+    margin-top: 90px;
   }
   .main-headshot img{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
   }
   figcaption{
     background-color:  #111;
     color: white;
-    width: 200px;
+    width: 300px;
     text-align: center;
   }
   .education-list{
@@ -109,4 +109,12 @@ body {
   }
   caption{
     font-size: 20px;
+  }
+
+  *{
+    font-family: sans-serif;
+  }
+
+  .gsu-cs-link{
+    margin-left: 70px;
   }

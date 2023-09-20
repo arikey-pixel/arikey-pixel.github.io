@@ -52,10 +52,6 @@ h1{
   ul{
     list-style: none;
   }
-  li{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-
   .home{
     width: fit-content;
     height: 40px;
@@ -71,4 +67,12 @@ h1{
   }
   .home, .header{
     display: inline-block;
+  }
+  h2{
+    margin-left: 10%;
+
+  }
+  
+  *{
+    font-family: sans-serif;
   }
